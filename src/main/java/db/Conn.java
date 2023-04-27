@@ -1,4 +1,4 @@
-package mavenexample.db;
+package db;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -9,7 +9,7 @@ public class Conn {
 	private EntityManagerFactory factory;
 	
 	public Conn() {
-		this.factory = Persistence.createEntityManagerFactory("mavenexample");
+		this.factory = Persistence.createEntityManagerFactory("CL1_AngeloCalderon");
 	}
 	
 	public static Conn getInstancia() {
